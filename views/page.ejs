@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo WebChat Socket IO</title>
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="xuly.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<div id="loginForm">
+			<h3>Login</h3>
+			<span>Username: </span>
+			<input type="text" id="txtUsername"/>
+			<input type="button" value="Register" id="btnRegister">
+		</div>
+		<div id="chatForm">
+			<div id="currentroom">...</div>
+			<div id="left">
+				<div id="boxTitle">User Online</div>
+				<div id="boxContent">
+				</div>
+			</div>
+			<div id="mid">
+				<div id="sayanything">
+				hello <span id="currentUser">sugar</span>
+				<input type="button" id="btnLogout" value="Logout">
+				</div>
+				<div id="listMessages"></div>
+				<div id="status"></div>
+				<input type="text" id="txtMessages">
+				<input type="button" id="btnSendMessage" value="Send">
+			</div>
+			<div id="right">
+				<div id="boxTitleroom">List room</div>
+				<div id="boxContentroom">
+				</div>
+			</div>
+			<div id="AddRoom">
+			<span>Room name: </span>
+			<input type="text" id="txtRoomname"/>
+			<input type="button" value="Add Room" id="btnCreateRoom">
+		</div>
+		</div>
+	</div>
+</body>
+</html>

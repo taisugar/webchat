@@ -1,0 +1,16 @@
+body{background-color: #ebeef4}
+#wrapper{width: 600px; margin: auto;}
+#chatForm{margin-top: 10px;}
+#left{width: 30%; float: left; background-color: #616f87;}
+#mid{width: 40%; float: left; background-color: #4c6999;}
+#right{width: 30%; float: left; background-color: #efe8bd;}
+
+#boxTitle, #boxContent{border:solid 1px black; padding: 5px; text-align: center;}
+#boxTitle{font-weight: bold;}
+#boxContent{border-top: none;}
+#sayanything{text-align: right;}
+#listMessages{height: 200px; background-color: #fcead4;}
+
+#boxTitleroom, #boxContentroom{border:solid 1px black; padding: 5px; text-align: center;}
+#boxTitleroom{font-weight: bold;}
+#boxContentroom{border-top: none;}
